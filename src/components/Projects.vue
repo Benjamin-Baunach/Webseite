@@ -97,7 +97,7 @@ export default {
       projects: [
         {
           title: 'Smarte Kasse',
-          description: `Diese Projektarbeit stellt das von unserem Team entwickelte digitale Kaffeemanagementsystem vor. Unser Ziel war es, eine benutzerfreundliche Website zu erstellen und die RFID-Technologie in Kombination mit einem Raspberry Pi Terminal zu nutzen, um eine effiziente Verwaltung des Kaffeekonsums bei "pep.digital GmbH" und Steinbeis zu ermöglichen . \n
+          description: `Diese Projektarbeit stellt das von unserem Team entwickelte digitale Kaffeemanagementsystem vor. Unser Ziel war es, eine benutzerfreundliche Webseite zu erstellen und die RFID-Technologie in Kombination mit einem Raspberry Pi Terminal zu nutzen, um eine effiziente Verwaltung des Kaffeekonsums bei "pep.digital GmbH" und Steinbeis zu ermöglichen . \n
           Wir haben verschiedene Technologien eingesetzt, um ein robustes und zuverlässiges System zu gewährleisten. Die Entwicklung der Benutzeroberfläche wurde mit React realisiert, einer leistungsstarken Bibliothek für die Erstellung webbasierter Anwendungen. Die API wurde in JavaScript mit Node und Express entwickelt, um eine nahtlose Kommunikation zwischen dem Frontend und der Datenbank zu ermöglichen. Als Datenbankmanagementsystem wurde MySQL, eine bewährte Open-Source-Lösung für SQL-Datenbanken, verwendet. Die Anwendung wurde zur einfachen Bereitstellung und Skalierbarkeit in Docker-Containern isoliert. \n
           Ein Schlüsselelement unseres Systems ist die Integration eines Raspberry Pi-Terminals mit einem Touchscreen und einem RFID-Scanner. Dadurch können die Mitarbeiter auf intuitive und benutzerfreundliche Weise mit dem System interagieren, indem sie einfach ihre RFID-Karte scannen, um Kaffee zu erhalten oder Informationen abzurufen \n
           Das Projektmanagement spielte eine entscheidende Rolle bei der erfolgreichen Umsetzung des Projekts. Wir nutzten GitLab als zentrales Tool für die Versionskontrolle und die Zusammenarbeit. Durch die Anwendung agiler Methoden waren wir in der Lage, effizient zu arbeiten, Herausforderungen zu bewältigen und das Projekt erfolgreich abzuschließen.\
@@ -180,7 +180,6 @@ export default {
   },
   methods: {
     openImage(image) {
-      console.log(image)
       this.enlargedImage = image;
     }
 
