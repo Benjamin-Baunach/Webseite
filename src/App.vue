@@ -2,7 +2,7 @@
   <div v-if="isMobile" class="mobile-content">
     <div class="mobile-navbarContainer">
       <nav class="navbarLogoMobile">
-        <router-link to="/Website" class="navbarLogoTextMobile"> BENJAMIN BAUNACH</router-link>
+        <router-link to="/Webseite" class="navbarLogoTextMobile"> BENJAMIN BAUNACH</router-link>
         <button @click="openMenu" class="hamburger">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
@@ -10,8 +10,8 @@
         </button>
         <div v-if="isMenuOpen" class="mobile-navbarLiElemente">
           <div class="navBarMobile">
-            <li class="navbarElementsMobile" :class="{ active: $route.path === '/Website' }">
-              <router-link @click="closeMenu" to="/Website">HOME</router-link>
+            <li class="navbarElementsMobile" :class="{ active: $route.path === '/Webseite' }">
+              <router-link @click="closeMenu" to="/Webseite">HOME</router-link>
             </li>
             <li class="navbarElementsMobile" :class="{ active: $route.path === '/about' }">
               <router-link @click="closeMenu" to="/about">ABOUT</router-link>
@@ -33,12 +33,12 @@
   <div v-else class="overhead">
     <div class="navbarContainer">
       <nav class="navbarLogo">
-        <router-link to="/Website" class="navbarLogoText"> BENJAMIN BAUNACH</router-link>
+        <router-link to="/Webseite" class="navbarLogoText"> BENJAMIN BAUNACH</router-link>
         <p class="BallClick"> Click the ball</p>
         <div class="navbarLiElemente">
           <canvas ref="canvas" id="cnv"></canvas>
-          <li class="navbarElements" :class="{ active: $route.path === '/Website' }"><router-link
-              to="/Website">HOME</router-link></li>
+          <li class="navbarElements" :class="{ active: $route.path === '/Webseite' }"><router-link
+              to="/Webseite">HOME</router-link></li>
           <li class="navbarElements" :class="{ active: $route.path === '/about' }"><router-link
               to="/about">ABOUT</router-link></li>
           <li class="navbarElements" :class="{ active: $route.path === '/projects' }"><router-link
