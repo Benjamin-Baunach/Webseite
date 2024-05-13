@@ -8,7 +8,7 @@ import Projects from "../components/Projects.vue"
 
 const routes = [
   {
-    path: "/Website",
+    path: "/Webseite",
     name: "Home-Page",
     component: Home,
   },
